@@ -1,7 +1,7 @@
 $(document).ready(function () {
     console.log("Start");
-    var $product = $('.nudges');
-    // var $response
+    // var $product = $('.nudges');
+    // // var $response
     $(".issue").hide();
     $.ajax({
         type: 'GET',
