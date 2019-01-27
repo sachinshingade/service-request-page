@@ -33,6 +33,13 @@ $(document).ready(function () {
                 });
                 $(".request").hide();
                 $(".issue").show();
+
+                $('.second').on('click', function (event) {
+                    $(event.delegateTarget).css("background-color", "#1996a2d6");
+                    var index2 = $(this).data("index");
+                    $div += result[index].issues[index2];
+                    console.log($div);
+                });
             });
 
             
